@@ -10,7 +10,13 @@ class Histogram extends Component {
   }
 
   render() {
-    return <canvas ref="canvas" width={700} height={100} />;
+    return (
+      <canvas
+        ref={node => (this.histoCanvas = node)}
+        width={700}
+        height={100}
+      />
+    );
   }
 
   updateCanvas() {
@@ -771,7 +777,7 @@ class Histogram extends Component {
         }
       ]
     };
-    const ctx = this.refs.canvas.getContext("2d");
+    const ctx = this.histoCanvas.getContext("2d");
     const chartOptions = { animation: true, animationSteps: 10 };
     new Chart(ctx).Bar(chartData, chartOptions);
   }

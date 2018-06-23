@@ -1,8 +1,8 @@
 {
   "name": "react-chart-histogram",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "ReactJS Simple Histogram Chart Canvas",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rodrigoap/react-chart-histogram.git"
@@ -15,15 +15,18 @@
     "chart"
   ],
   "author": "Rodrigo Peinado <zurdo1119@gmail.com> (https://rodrigoap.com/)",
-	"email": "zurdo1119@gmail.com",
+  "email": "zurdo1119@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rodrigoap/react-chart-histogram/issues"
   },
   "homepage": "https://github.com/rodrigoap/react-chart-histogram#readme",
   "dependencies": {
-    "react": "^16.4.1",
+    "react": "^16.4.0",
     "webpack": "^4.12.0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
