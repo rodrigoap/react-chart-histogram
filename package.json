@@ -1,0 +1,42 @@
+{
+  "name": "react-chart-histogram",
+  "version": "0.1.0",
+  "description": "ReactJS Simple Histogram Chart Canvas",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoap/react-chart-histogram.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "canvas",
+    "histogram",
+    "chart"
+  ],
+  "author": "Rodrigo Peinado <zurdo1119@gmail.com> (https://rodrigoap.com/)",
+	"email": "zurdo1119@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigoap/react-chart-histogram/issues"
+  },
+  "homepage": "https://github.com/rodrigoap/react-chart-histogram#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "webpack": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
