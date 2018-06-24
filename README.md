@@ -16,7 +16,7 @@ render() {
   const data = [324, 45, 672];
   return (
     <div>
-      <Histogram xLabels={labels} yValues={data} />
+      <Histogram xLabels={labels} yValues={data} width="400" height="200"/>
     </div>
   )
 }

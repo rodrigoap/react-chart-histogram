@@ -13,8 +13,8 @@ class Histogram extends Component {
     return (
       <canvas
         ref={node => (this.histoCanvas = node)}
-        width={700}
-        height={100}
+        width={this.props.width}
+        height={this.props.height}
       />
     );
   }

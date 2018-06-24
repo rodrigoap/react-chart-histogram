@@ -1,6 +1,6 @@
 {
   "name": "react-chart-histogram",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "ReactJS Simple Histogram Chart Canvas",
   "main": "build/index.js",
   "repository": {
