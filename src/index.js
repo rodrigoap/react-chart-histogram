@@ -766,13 +766,20 @@ class Histogram extends Component {
         return data ? fn(data) : fn;
       }
     };
-
+    const fillColor =
+      this.props.options && this.props.options.fillColor
+        ? this.props.options.fillColor
+        : "#FF0000";
+    const strokeColor =
+      this.props.options && this.props.options.strokeColor
+        ? this.props.options.strokeColor
+        : "#FF0000";
     const chartData = {
       labels: this.props.xLabels,
       datasets: [
         {
-          fillColor: "rgba(220,220,220,0.5)",
-          strokeColor: "rgba(220,220,220,1)",
+          fillColor,
+          strokeColor,
           data: this.props.yValues
         }
       ]
