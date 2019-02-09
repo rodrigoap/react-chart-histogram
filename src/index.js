@@ -241,7 +241,7 @@ class Histogram extends Component {
           barStrokeWidth: 2,
           barValueSpacing: 5,
           barDatasetSpacing: 1,
-          animation: true,
+          animation: false,
           animationSteps: 60,
           animationEasing: "easeOutQuart",
           onAnimationComplete: null
@@ -785,7 +785,7 @@ class Histogram extends Component {
       ]
     };
     const ctx = this.histoCanvas.getContext("2d");
-    const chartOptions = { animation: true, animationSteps: 10 };
+    const chartOptions = { animation: false, animationSteps: 10 };
     new Chart(ctx).Bar(chartData, chartOptions);
   }
 }
