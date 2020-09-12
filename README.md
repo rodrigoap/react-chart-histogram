@@ -29,4 +29,4 @@ render() {
 }
 ```
 
-[See it in action!](https://www.rodrigoap.com/tapas "See it in action")
+![histogram image](https://raw.githubusercontent.com/rodrigoap/react-chart-histogram/master/histo.png "Histogram Image")
